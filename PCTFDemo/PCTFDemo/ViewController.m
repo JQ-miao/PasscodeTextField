@@ -10,6 +10,7 @@
 #import "PasscodeTextField.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedBtn;
 @property(nonatomic,copy) PasscodeTextField *pcTF;
 
 @end
@@ -76,6 +77,9 @@
     
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    self.segmentedBtn.isHidden? (self.segmentedBtn.hidden = NO):(self.segmentedBtn.hidden = YES);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
