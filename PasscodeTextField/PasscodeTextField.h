@@ -1,7 +1,7 @@
 //
 //  PasscodeTextField.h
 //
-//  Created by vndjqmia on 2016/11/28.
+//  Created by JQ-miao on 2016/11/28.
 //  Copyright © 2016年 com.himjq. All rights reserved.
 //
 

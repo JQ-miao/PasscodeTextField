@@ -43,6 +43,7 @@
         }
     };
 }
+
 - (IBAction)SegmentedClick:(UISegmentedControl *)sender {
     [_pcTF clearPasscode];
     [_pcTF showKeyboard];
