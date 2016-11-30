@@ -26,4 +26,4 @@ A custom TextField for input passcode.
 - hideKeyboard
 - clearPasscode
 
-### Contact me: [himjq.com](www.himjq.com)
+### Contact me: [himjq.com](http://himjq.com)
