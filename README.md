@@ -6,17 +6,19 @@ A custom TextField for input passcode.
 ##Demo
 "[PCTFDemo](https://github.com/JQ-miao/PasscodeTextField/tree/master/PCTFDemo)" is a demo. You can run it on xcode.
 
-##usage
-* Drag the fold "PasscodeTextField" to your project. Import PasscodeTextField.h to your viewController and init
+## usage
+- Drag the fold "PasscodeTextField" to your project. Import PasscodeTextField.h to your viewController and init
 <pre><code>#import "PasscodeTextField.h"</code></pre>
 <pre><code>PasscodeTextField *pcTF = [[PasscodeTextField alloc]initWithFrame:..];</code></pre>
-##methods
+
+## methods
+
 - pcTF.complexity  //Complexity of the passcode, default is 4.
 - pcTF.color       //Color of elements in the view, default is black.
 - pcTF.size        //Size of elements in the view, default is 20.
 - pcTF.style       //Style of elements in the view, default is likes iphone view.
 - pcTF.getPasscode //A block can get the passcode.
-<pre><code>_pcTF.getPasscode = ^(NSString *passcode,PasscodeTextField *pcTF){
+<pre><code>pcTF.getPasscode = ^(NSString *passcode,PasscodeTextField *pcTF){
                    la.text = [NSString stringWithFormat:@"Passcode is：%@",passcode];
                };
 </code></pre>
