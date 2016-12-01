@@ -12,18 +12,32 @@ A custom TextField for input passcode.
 <pre><code>PasscodeTextField *pcTF = [[PasscodeTextField alloc]initWithFrame:..];</code></pre>
 
 ## Methods
+- Complexity of the passcode, default is 4.
+    pcTF.complexity
 
-- pcTF.complexity  //Complexity of the passcode, default is 4.
-- pcTF.color       //Color of elements in the view, default is black.
-- pcTF.size        //Size of elements in the view, default is 20.
-- pcTF.style       //Style of elements in the view, default is likes iphone view.
-- pcTF.getPasscode //A block can get the passcode.
+- Color of elements in the view, default is black.
+    pcTF.color
+
+- Size of elements in the view, default is 20.
+    pcTF.size
+
+- Style of elements in the view, default is likes iphone view.
+    pcTF.style
+
+- A block can get the passcode
+    pcTF.getPasscode 
 <pre><code>pcTF.getPasscode = ^(NSString *passcode,PasscodeTextField *pcTF){
-                   la.text = [NSString stringWithFormat:@"Passcode is：%@",passcode];
+                   NSLog(@"passcode is : %@",passcode);
                };
 </code></pre>
-- showKeyboard
-- hideKeyboard
-- clearPasscode
+
+- Show keyboard
+    [pcTF showKeyboard]
+
+- Hide keyboard
+    [pcTF hideKeyboard]
+
+- Clear filled passcode
+    [pcTF clearPasscode]
 
 ### Contact me: [himjq.com](http://himjq.com)
