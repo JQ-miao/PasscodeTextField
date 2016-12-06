@@ -29,9 +29,8 @@ A custom TextField for input passcode.
 - A block can get the passcode
     ```pcTF.getPasscode = ^(NSString *passcode,PasscodeTextField *pcTF){
                        NSLog(@"passcode is : %@",passcode);
-                   };
-    ```
-
+                   };```
+    
 - Show keyboard
     `[pcTF showKeyboard]`
 
