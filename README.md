@@ -15,29 +15,37 @@ A custom TextField for input passcode.
 
 #### Methods
 - Complexity of the passcode, default is 4.
+
     `pcTF.complexity`
 
 - Color of elements in the view, default is black.
+
     `pcTF.color`
 
 - Size of elements in the view, default is 20.
+
     `pcTF.size`
 
 - Style of elements in the view, default is likes iphone view.
+
     `pcTF.style`
 
 - A block can get the passcode
+
     ```pcTF.getPasscode = ^(NSString *passcode,PasscodeTextField *pcTF){
                        NSLog(@"passcode is : %@",passcode);
                    };```
     
 - Show keyboard
+
     `[pcTF showKeyboard]`
 
 - Hide keyboard
+
     `[pcTF hideKeyboard]`
 
 - Clear filled passcode
+
     `[pcTF clearPasscode]`
 
 ## Contact me: [himjq.com](http://himjq.com)
