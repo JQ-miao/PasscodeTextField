@@ -45,7 +45,7 @@ typedef NS_ENUM(NSInteger, PCTFStyle) {
 /**
  A block can get the passcode.
  */
-@property(nonatomic,copy) void(^getPasscode)(NSString *passcode,PasscodeTextField *pcTW);
+@property(nonatomic,copy) void(^getPasscode)(NSString *passcode,PasscodeTextField *pcTF);
 
 
 /**
