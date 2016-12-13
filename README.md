@@ -48,3 +48,6 @@
     `[pcTF clearPasscode]`
 
 ## Contact me: [himjq.com](http://himjq.com)
+
+## LICENSE
+- This project is released under the MIT license. See LICENSE.md.
