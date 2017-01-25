@@ -2,7 +2,7 @@
 //  PasscodeTextField.m
 //
 //  Created by JQ-miao on 2016/11/25.
-//  Copyright © 2016年 com.himjq.  All rights reserved.
+//  Copyright © 2016年 himjq.com.  All rights reserved.
 //
 
 #import "PasscodeTextField.h"

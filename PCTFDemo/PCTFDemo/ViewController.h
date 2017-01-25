@@ -2,8 +2,8 @@
 //  ViewController.h
 //  PCTFDemo
 //
-//  Created by vndjqmia on 2016/11/28.
-//  Copyright © 2016年 com.himjq. All rights reserved.
+//  Created by JQ-miao on 2016/11/28.
+//  Copyright © 2016年 himjq.com. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
